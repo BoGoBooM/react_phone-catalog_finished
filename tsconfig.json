@@ -1,10 +1,12 @@
 {
   "extends": "@mate-academy/students-ts-config",
   "include": [
-    "src"
+    "src",
+    "cypress.config.ts",
+    "reports/assets/app.js"
   ],
   "compilerOptions": {
     "sourceMap": false,
-    "types": ["node"]
+    "types": ["node", "cypress"]
   }
 }
